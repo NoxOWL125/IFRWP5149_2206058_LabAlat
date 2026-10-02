@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Latihan kakas — S-ORI-01 " id="s0hjRgFZ4mjiVJosn8Rs">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yBvMx2AR7bxStvYoIYAq-10" edge="1" parent="1" source="yBvMx2AR7bxStvYoIYAq-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="yBvMx2AR7bxStvYoIYAq-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBvMx2AR7bxStvYoIYAq-1" parent="1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yBvMx2AR7bxStvYoIYAq-2" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="400" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="yBvMx2AR7bxStvYoIYAq-12" edge="1" parent="1" source="yBvMx2AR7bxStvYoIYAq-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="yBvMx2AR7bxStvYoIYAq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBvMx2AR7bxStvYoIYAq-8" parent="1" style="html=1;whiteSpace=wrap;" value="Buka daftar peralatan" vertex="1">
+          <mxGeometry height="40" width="120" x="360" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yBvMx2AR7bxStvYoIYAq-13" edge="1" parent="1" source="yBvMx2AR7bxStvYoIYAq-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="yBvMx2AR7bxStvYoIYAq-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBvMx2AR7bxStvYoIYAq-9" parent="1" style="html=1;whiteSpace=wrap;" value="Lihat informasi ketersediaan" vertex="1">
+          <mxGeometry height="40" width="120" x="360" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
