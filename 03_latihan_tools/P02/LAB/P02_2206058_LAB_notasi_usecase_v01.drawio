@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="a4vZFsun5s9lZjKdjmpW" name="P02_2206058_LAB_notasi_usecase_v01">
+        <mxGraphModel dx="1008" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="WY07QtBYBTWqI4W0_GzA-9" edge="1" parent="1" source="WY07QtBYBTWqI4W0_GzA-1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WY07QtBYBTWqI4W0_GzA-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="WY07QtBYBTWqI4W0_GzA-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="80" width="40" x="40" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="WY07QtBYBTWqI4W0_GzA-2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=240;height=50;" value="Sistem Informasi Peminjaman Pengembalian Peralatan Laboratorium Kampus" vertex="1">
+                    <mxGeometry height="280" width="440" x="160" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="WY07QtBYBTWqI4W0_GzA-5" parent="WY07QtBYBTWqI4W0_GzA-2" style="ellipse;html=1;whiteSpace=wrap;" value="Lihat ketersedian peralatan" vertex="1">
+                    <mxGeometry height="55" width="120" x="40" y="132.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="WY07QtBYBTWqI4W0_GzA-8" parent="WY07QtBYBTWqI4W0_GzA-2" style="ellipse;html=1;whiteSpace=wrap;" value="Kelola data&lt;div&gt;peralatan&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="55" width="120" x="280" y="132.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="WY07QtBYBTWqI4W0_GzA-10" edge="1" parent="1" source="WY07QtBYBTWqI4W0_GzA-4" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WY07QtBYBTWqI4W0_GzA-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="WY07QtBYBTWqI4W0_GzA-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Petugas Laboran" vertex="1">
+                    <mxGeometry height="80" width="40" x="680" y="320" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
