@@ -1,0 +1,87 @@
+<mxfile host="65bd71144e">
+    <diagram id="Vl5gFYa3acVGyQ-Mf3CZ" name="Page-1">
+        <mxGraphModel dx="799" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-1" parent="1" style="swimlane;html=1;startSize=34;horizontal=1;rounded=0;fillColor=#f5f7fa;swimlaneFillColor=#ffffff;strokeColor=#64748b;fontStyle=1;fontSize=16;" value="Kepala Laboratorium" vertex="1">
+                    <mxGeometry height="1090" width="500" x="360" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-2" parent="AdHdKIodaeWnNuR64bHh-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Memilih periode laporan" vertex="1">
+                    <mxGeometry height="60" width="230" x="135" y="352.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-3" parent="AdHdKIodaeWnNuR64bHh-1" style="ellipse;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="24" width="24" x="238" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-4" parent="1" style="swimlane;html=1;startSize=34;horizontal=1;rounded=0;fillColor=#f5f7fa;swimlaneFillColor=#ffffff;strokeColor=#64748b;fontStyle=1;fontSize=16;" value="Sistem" vertex="1">
+                    <mxGeometry height="1090" width="500" x="860" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-5" parent="AdHdKIodaeWnNuR64bHh-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Menampilkan daftar periode laporan" vertex="1">
+                    <mxGeometry height="60" width="230" x="135" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-6" edge="1" parent="AdHdKIodaeWnNuR64bHh-4" source="AdHdKIodaeWnNuR64bHh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AdHdKIodaeWnNuR64bHh-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-7" parent="AdHdKIodaeWnNuR64bHh-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Menampilkan laporan peminjaman periode tersebut" vertex="1">
+                    <mxGeometry height="65" width="230" x="135" y="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-8" edge="1" parent="AdHdKIodaeWnNuR64bHh-4" source="AdHdKIodaeWnNuR64bHh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AdHdKIodaeWnNuR64bHh-13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="420" y="587.5"/>
+                            <mxPoint x="420" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-9" connectable="0" parent="AdHdKIodaeWnNuR64bHh-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[ada]" vertex="1">
+                    <mxGeometry relative="1" x="0.0262" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-10" parent="AdHdKIodaeWnNuR64bHh-4" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="Ada data peminjaman?" vertex="1">
+                    <mxGeometry height="95" width="140" x="180" y="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-11" parent="AdHdKIodaeWnNuR64bHh-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Menampilkan pesan tidak ada data peminjaman pada periode tersebut" vertex="1">
+                    <mxGeometry height="70" width="230" x="135" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-12" edge="1" parent="AdHdKIodaeWnNuR64bHh-4" source="AdHdKIodaeWnNuR64bHh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="AdHdKIodaeWnNuR64bHh-11" value="[tidak ada]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-13" parent="AdHdKIodaeWnNuR64bHh-4" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="" vertex="1">
+                    <mxGeometry height="60" width="90" x="205" y="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-14" parent="AdHdKIodaeWnNuR64bHh-4" style="ellipse;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;strokeWidth=3;shape=doubleEllipse;" value="" vertex="1">
+                    <mxGeometry height="28" width="28" x="236" y="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-15" edge="1" parent="AdHdKIodaeWnNuR64bHh-4" source="AdHdKIodaeWnNuR64bHh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="AdHdKIodaeWnNuR64bHh-13" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-16" edge="1" parent="AdHdKIodaeWnNuR64bHh-4" source="AdHdKIodaeWnNuR64bHh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="AdHdKIodaeWnNuR64bHh-14" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-17" edge="1" parent="1" source="AdHdKIodaeWnNuR64bHh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="AdHdKIodaeWnNuR64bHh-20" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-18" edge="1" parent="1" source="AdHdKIodaeWnNuR64bHh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="AdHdKIodaeWnNuR64bHh-5" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-19" edge="1" parent="1" source="AdHdKIodaeWnNuR64bHh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="AdHdKIodaeWnNuR64bHh-2" value="">
+                    <mxGeometry relative="1" x="0.117" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1110" y="570"/>
+                            <mxPoint x="610" y="570"/>
+                        </Array>
+                        <mxPoint x="895" y="470" as="sourcePoint"/>
+                        <mxPoint x="595" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Membuka fungsi Lihat Laporan Peminjaman" vertex="1">
+                    <mxGeometry height="60" width="230" x="495" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="AdHdKIodaeWnNuR64bHh-21" edge="1" parent="1" source="AdHdKIodaeWnNuR64bHh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AdHdKIodaeWnNuR64bHh-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

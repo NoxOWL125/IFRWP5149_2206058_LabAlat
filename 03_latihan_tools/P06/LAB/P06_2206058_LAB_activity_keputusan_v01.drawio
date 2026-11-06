@@ -1,0 +1,101 @@
+<mxfile host="65bd71144e">
+    <diagram id="RXC1vAKNfyMLF7rM49mc" name="Page-1">
+        <mxGraphModel dx="799" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FES_mdDwuk36bitPDjTn-1" parent="1" style="swimlane;html=1;startSize=34;horizontal=1;rounded=0;fillColor=#f5f7fa;swimlaneFillColor=#ffffff;strokeColor=#64748b;fontStyle=1;fontSize=16;" value="Petugas Laboratorium" vertex="1">
+                    <mxGeometry height="970" width="500" x="360" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-2" parent="FES_mdDwuk36bitPDjTn-1" style="ellipse;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="24" width="24" x="250" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-3" parent="FES_mdDwuk36bitPDjTn-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Membuka daftar pengajuan berstatus Menunggu Keputusan" vertex="1">
+                    <mxGeometry height="70" width="230" x="147" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-4" edge="1" parent="FES_mdDwuk36bitPDjTn-1" source="FES_mdDwuk36bitPDjTn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-3" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-5" parent="FES_mdDwuk36bitPDjTn-1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="Hasil keputusan petugas?" vertex="1">
+                    <mxGeometry height="95" width="140" x="85" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-6" parent="1" style="swimlane;html=1;startSize=34;horizontal=1;rounded=0;fillColor=#f5f7fa;swimlaneFillColor=#ffffff;strokeColor=#64748b;fontStyle=1;fontSize=16;" value="Sistem" vertex="1">
+                    <mxGeometry height="970" width="710" x="860" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-7" parent="FES_mdDwuk36bitPDjTn-6" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Memeriksa data dan status pengajuan" vertex="1">
+                    <mxGeometry height="60" width="230" x="240" y="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-8" parent="FES_mdDwuk36bitPDjTn-6" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="Pengajuan dapat diproses?" vertex="1">
+                    <mxGeometry height="95" width="140" x="285" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-9" edge="1" parent="FES_mdDwuk36bitPDjTn-6" source="FES_mdDwuk36bitPDjTn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-8" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-10" parent="FES_mdDwuk36bitPDjTn-6" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Mengubah status menjadi Disetujui" vertex="1">
+                    <mxGeometry height="60" width="220" x="10" y="585" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-11" parent="FES_mdDwuk36bitPDjTn-6" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Mengubah status menjadi Ditolak" vertex="1">
+                    <mxGeometry height="60" width="220" x="480" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-12" parent="FES_mdDwuk36bitPDjTn-6" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Menampilkan pesan pengajuan tidak dapat diproses" vertex="1">
+                    <mxGeometry height="65" width="230" x="240" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-13" edge="1" parent="FES_mdDwuk36bitPDjTn-6" source="FES_mdDwuk36bitPDjTn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-12" value="[tidak dapat diproses]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-14" parent="FES_mdDwuk36bitPDjTn-6" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="" vertex="1">
+                    <mxGeometry height="60" width="90" x="399" y="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-15" edge="1" parent="FES_mdDwuk36bitPDjTn-6" source="FES_mdDwuk36bitPDjTn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-14" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-16" edge="1" parent="FES_mdDwuk36bitPDjTn-6" source="FES_mdDwuk36bitPDjTn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-14" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="770"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-17" parent="FES_mdDwuk36bitPDjTn-6" style="ellipse;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;strokeWidth=3;shape=doubleEllipse;" value="" vertex="1">
+                    <mxGeometry height="28" width="28" x="341" y="900" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-18" edge="1" parent="FES_mdDwuk36bitPDjTn-6" source="FES_mdDwuk36bitPDjTn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-17" value="">
+                    <mxGeometry relative="1" x="-0.2323" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="355" y="899"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-19" edge="1" parent="FES_mdDwuk36bitPDjTn-6" source="FES_mdDwuk36bitPDjTn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-17" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="444" y="914"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;spacing=8;" value="Menetapkan hasil keputusan pengajuan" vertex="1">
+                    <mxGeometry height="65" width="230" x="400" y="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-21" edge="1" parent="1" source="FES_mdDwuk36bitPDjTn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-7" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-22" edge="1" parent="1" source="FES_mdDwuk36bitPDjTn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-20" value="[dapat diproses]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-23" edge="1" parent="1" source="FES_mdDwuk36bitPDjTn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-5" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-24" edge="1" parent="1" source="FES_mdDwuk36bitPDjTn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-10" value="[disetujui]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="515" y="855"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FES_mdDwuk36bitPDjTn-25" edge="1" parent="1" source="FES_mdDwuk36bitPDjTn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="FES_mdDwuk36bitPDjTn-11" value="[ditolak]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
